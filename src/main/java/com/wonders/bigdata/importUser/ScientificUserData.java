@@ -9,9 +9,9 @@ import java.sql.*;
  * @date: 2019/11/12 14:33
  */
 public class ScientificUserData {
-    private static String url = "jdbc:mysql://10.1.65.12:3306/clean_scientific?useUnicode=true&characterEncoding=UTF-8";
+    private static String url = "jdbc:mysql://**:3306/clean_scientific?useUnicode=true&characterEncoding=UTF-8";
     private static String userName = "root";
-    private static String psw = "root";
+    private static String psw = "**";
     private static Connection con = null;
     private static Statement sta = null;
     private static ResultSet res = null;

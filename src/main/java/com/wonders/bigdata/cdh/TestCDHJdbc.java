@@ -14,9 +14,9 @@ import java.util.Date;
  * @date: 2019/9/6 14:05
  */
 public class TestCDHJdbc {
-    private static String url = "jdbc:hive2://10.1.64.95:10000";
+    private static String url = "jdbc:hive2://**.*.**.95:10000";
     private static String userName = "hive";
-    private static String psw = "123456";
+    private static String psw = "****";
 
     public static void main(String[] args) {
         ArrayList<String[]> datas = new ArrayList();

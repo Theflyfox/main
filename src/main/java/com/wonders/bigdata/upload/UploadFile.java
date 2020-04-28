@@ -25,7 +25,7 @@ import java.util.*;
  * @date: 2019/11/21 9:16
  */
 public class UploadFile {
-    private static final String URL_STR = "http://10.1.192.123:9000/filemanager";
+    private static final String URL_STR = "http://**.123:9000/filemanager";
     private static final String localFile = "C:\\ssoinsert.sql";
 
     public static void main(String[] args) {
