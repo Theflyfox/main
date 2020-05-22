@@ -1,5 +1,6 @@
 package com.wonders.bigdata.utils;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -14,5 +15,9 @@ public class DateUtils {
 
     public static String dateToStr(Date date) {
         return sdf.format(date);
+    }
+
+    public static Date strToDate(String str) throws ParseException {
+        return sdf.parse(str);
     }
 }
