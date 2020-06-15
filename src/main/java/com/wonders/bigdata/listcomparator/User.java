@@ -8,7 +8,7 @@ import java.util.Date;
  * @author: XB
  * @date: 2020/5/20 9:13
  */
-public class User {
+public class User implements Comparable<User> {
     private Long id;
     private int age;
     private Date time;
@@ -41,5 +41,16 @@ public class User {
 
     public void setTime(Date time) {
         this.time = time;
+    }
+
+    @Override
+    public int compareTo(User o) {
+        if (this.getAge() > o.getAge()) {
+            return 1;
+        }else if (this.getAge() < o.getAge()) {
+            return -1;
+        }else {
+            return 0;
+        }
     }
 }

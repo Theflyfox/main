@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac80f02-3094-4302-909e-cfe9fd77ab0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/UserComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表-docm.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/file/测试word1.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/cdh/TestCDHJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/cdh/TestCDHJdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/importUser/SSOUserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/importUser/SSOUserData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/importUser/ScientificUserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/importUser/ScientificUserData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/upload/UploadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/upload/UploadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/word/CreateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/word/CreateWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3025">
+            <state relative-caret-position="738">
               <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,33 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="737">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -135,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/UserComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +114,6 @@
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,12 +139,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/ImportDataSyncUser.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/TestDamo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/StudentInfoVO.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/TestDamo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/ImportDataSyncDept.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/InsertSql.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/ImportDataSyncUser.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -231,9 +193,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/resource/file/会议记录（V2.0）.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/UserComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java" />
       </list>
     </option>
   </component>
@@ -272,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,6 +297,28 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wonders" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="imageVerification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="listcomparator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +364,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,6 +520,8 @@
       <workItem from="1588908209533" duration="6183000" />
       <workItem from="1589167519494" duration="8446000" />
       <workItem from="1589937172354" duration="2379000" />
+      <workItem from="1590142799659" duration="139000" />
+      <workItem from="1592203006256" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1588055072851</created>
@@ -544,17 +530,24 @@
       <option name="project" value="LOCAL" />
       <updated>1588055072851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改">
+      <created>1590142892762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590142892762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173345000" />
+    <option name="totallyTimeSpent" value="173712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="39" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23300971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24110033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,7 +557,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38799077" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38799077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41983852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -878,6 +871,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word (2).ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word2.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/lun.ftl" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/会议记录（V2.0）.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -909,51 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3025">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/会议记录（V2.0）.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107225">
-          <caret line="4289" column="57" selection-start-line="4289" selection-start-column="57" selection-end-line="4289" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/DateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -966,10 +915,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/UserComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

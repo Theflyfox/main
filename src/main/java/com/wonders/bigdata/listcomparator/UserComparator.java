@@ -29,9 +29,10 @@ public class UserComparator implements Comparator {
             list.add(new User(2L, 25, DateUtils.strToDate("2020-01-01 11:12:12")));
             list.add(new User(3L, 22, DateUtils.strToDate("2020-06-01 11:12:12")));
             list.add(new User(4L, 27, DateUtils.strToDate("2020-05-01 11:12:12")));
+            list.add(new User(5L, 25, DateUtils.strToDate("2020-05-02 11:12:12")));
 
             //Arrays.sort(list.toArray(), new UserComparator());
-            Collections.sort(list, new UserComparator());
+            Collections.sort(list);
             for (User user : list) {
                 System.out.println(user.getId() + "-" + DateUtils.dateToStr(user.getTime()));
             }
