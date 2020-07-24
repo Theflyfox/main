@@ -1,7 +1,9 @@
 package com.wonders.bigdata.word;
 
-
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Description: <br>
@@ -11,7 +13,7 @@ import java.util.List;
  */
 public class EthicApplyTableO {
     //研究基本信息
-    private String projectNumber;           //
+    private String projectNumber;           //受理号
     private String name;                    //项目名称
     private String projectType;            //项目类型的id 1:药物临床试验 2:医疗器械临床试验, 3:科研课题 4:研究者发起研究, 5:申办方观察性研究,
     private String medicalInstrumentName;   //药械名称
@@ -22,8 +24,8 @@ public class EthicApplyTableO {
     private String role;                   //本中心角色id 1:'组长单位', 2:'协调单位', 3:'参与单位', 4:'不适应(单中心)',
     private String leaderUnit;              //组长单位
     private String joinUnit;                //参与单位
-    private String undertakeDepartment;     //参与科室id
-    private String incharge;                //项目负责人id
+    private String undertakeDepartment;     //参与科室
+    private String incharge;                //项目负责人
     private Integer researchMethod1;   //研究方法id数组 1:'实验性研究',
     private Integer researchMethod2;   //研究方法id数组 2:'前瞻性观察性研究'
     private Integer researchMethod3;   //研究方法id数组 3:'回顾性观察性研究'
@@ -44,104 +46,181 @@ public class EthicApplyTableO {
     private Integer inheritance4;      //遗传办公室审批事项id 4:"保藏-建立样本库,
     private Integer inheritance5;      //遗传办公室审批事项id 5:"保藏-建立数据库",
     private Integer inheritance6;      //遗传办公室审批事项id 6:"保藏-国际合作 "
-    private Integer register;          //试验用药械是否拟申请注册/申报 1-是 0-否
-    private Integer arange;            //试验用药械遵循批准适应症范围/使用方法 1-是 0-否
+    private String register;          //试验用药械是否拟申请注册/申报 1-是 0-否
+    private String arange;            //试验用药械遵循批准适应症范围/使用方法 1-是 0-否
 
-    //送审文件清单
-    private Integer state;//文件清单审查状态 1:'初始审查', 2:'复审-修正后同意' 3:'复审-重审' 4,:'跟踪审查-修正案'
-    private Integer self1;//主要研究者及研究团队利益冲突申明信
-    private String self1_1;//主要研究者及研究团队利益冲突申明信名称
-    private Integer self2;//经费来源情况的说明信
-    private String self2_1;//经费来源情况的说明信名称
-    private Integer self3;//临床研究方案
-    private String self3_1;//临床研究方案名称
-    private String self3_2;//临床研究方案版本号
-    private String self3_3;//临床研究方案日期
-    private Integer self4;//4选择一项
-    private String self4_1;//4选择一项名称
-    private String self4_2;//4选择一项版本号
-    private String self4_3;//4选择一项日期
-    private Integer self5;//文件清单列表
-    private String self5_1;//5选择一项名称
-    private String self5_2;//5选择一项版本号
-    private String self5_3;//5选择一项日期
-    private Integer self6;//文件清单列表
-    private String self6_1;//6选择一项名称
-    private String self6_2;//6选择一项版本号
-    private String self6_3;//6选择一项日期
-    private Integer self7;//研究者手册
-    private String self7_1;//研究者手册名称
-    private String self7_2;//研究者手册版本号
-    private String self7_3;//研究者手册日期
-    private Integer self8;//保险合同
-    private String self8_1;//保险合同名称
-    private String self8_2;//保险合同号
-    private Integer self9;//文件清单列表
-    private String self9_1;//研究团队名单、研究者履历及GCP证书名称
-    private Integer self10;//文件清单列表
-    private String self10_1;//参与单位列表名称
-    private Integer self11;//文件清单列表
-    private String self11_1;//11选择一项名称
-    private String self11_2;//11选择一项文号
-    private Integer self12;//文件清单列表
-    private String self12_1;//12选择一项名称
-    private String self12_2;//12选择一项文号
-    private Integer self13;//文件清单列表
-    private String self13_1;//13选择一项名称
-    private String self13_2;//13选择一项编号
-    private Integer self14;//文件清单列表
-    private String self14_1;//医疗器械说明书
-    private Integer self15;//文件清单列表
-    private String self15_1;//临床试验机构的设施和条件能够满足试验的综述
-    private Integer self16;//文件清单列表
-    private String self16_1;//试验用医疗器械的研制符合适用的医疗器械质量管理体系相关要求的声明
-    private Integer self17_1;//申办方资质证明
-    private Integer self17_2;//SMO资质证明
-    private Integer self17_3;//CRO资质证明
-    private Integer self17_4;//中心实验室资质证明
-    private Integer self18;//文件清单其他
-    private String fileInput;//文件清单的其他内容
+    /**
+     * 伦理审查类型：1-初始审查，2-复审-修正后同意，3-复审-重审，4-修正案，5-本院严重不良事件，6-安全性报告
+     * 7-方案违背报告，8-定期跟踪报告，9-暂停研究报告，10-提前终止研究报告，11-结题报告，12-其他文件
+     */
+    private Integer checkType;
+    private ApprovalFileO file31 = new ApprovalFileO();//主要研究者及研究团队利益冲突申明信
+    private ApprovalFileO file68 = new ApprovalFileO();//经费来源情况的说明信
+    private ApprovalFileO file5 = new ApprovalFileO();//临床研究方案
+    private ApprovalFileO file7 = new ApprovalFileO();//知情同意书
+    private ApprovalFileO file8 = new ApprovalFileO();//豁免知情同意书过程申请
+    private ApprovalFileO file69 = new ApprovalFileO();//受试者招募材料
+    private ApprovalFileO file70 = new ApprovalFileO();//招募方式说明
+    private ApprovalFileO file71 = new ApprovalFileO();//样本来源及使用说明
+    private ApprovalFileO file75 = new ApprovalFileO();//纸质病例报告表
+    private ApprovalFileO file76 = new ApprovalFileO();//电子病例报告表
+    private ApprovalFileO file12 = new ApprovalFileO();//研究者手册
+    private ApprovalFileO file50 = new ApprovalFileO();//保险合同
+    private ApprovalFileO file9 = new ApprovalFileO();// 研究团队名单、研究者履历及GCP证书
+    private ApprovalFileO file10 = new ApprovalFileO();// 研究团队名单、研究者履历及GCP证书
+    private ApprovalFileO file77 = new ApprovalFileO();//参与单位列表
+    private ApprovalFileO file72 = new ApprovalFileO();//组长单位伦理委员会批件
+    private ApprovalFileO file73 = new ApprovalFileO();//其他伦理委员会的审批决定
+    private ApprovalFileO file79 = new ApprovalFileO();//国家食品药品监督管理总局临床试验批件
+    private ApprovalFileO file80 = new ApprovalFileO();//国家药品监督管理局临床试验通知
+    private ApprovalFileO file81 = new ApprovalFileO();// 医疗器械注册检验报告
+    private ApprovalFileO file82 = new ApprovalFileO();//科研项目批文/任务书
+    private ApprovalFileO file109 = new ApprovalFileO();// 药物的合格检验报告
+    private ApprovalFileO file110 = new ApprovalFileO();//医疗器械自检报告
+    private ApprovalFileO file62 = new ApprovalFileO();//医疗器械说明书
+    private ApprovalFileO file97 = new ApprovalFileO();//赞助方资质证明
+    private ApprovalFileO file85 = new ApprovalFileO();//SMO资质证明
+    private ApprovalFileO file86 = new ApprovalFileO();//CRO资质证明
+    private ApprovalFileO file87 = new ApprovalFileO();//中心实验室资质证明
+    private ApprovalFileO file88 = new ApprovalFileO();//初始其他
+    private ApprovalFileO file_sae = new ApprovalFileO();//本院严重不良事件
+    private ApprovalFileO file101 = new ApprovalFileO();//非预期严重不良事件汇总记录表
+    private ApprovalFileO file63 = new ApprovalFileO();//外院SAE
+    private ApprovalFileO file89 = new ApprovalFileO();//SUSAR
+    private ApprovalFileO file90 = new ApprovalFileO();//MSR
+    private ApprovalFileO file91 = new ApprovalFileO();//药物的安全性报告
+    private ApprovalFileO file102 = new ApprovalFileO();//安全性信息报告摘要
+    private ApprovalFileO file98 = new ApprovalFileO();//安全性报告其他
+    private ApprovalFileO file92 = new ApprovalFileO();//严重违背
+    private ApprovalFileO file93 = new ApprovalFileO();//轻度违背
+    private ApprovalFileO file103 = new ApprovalFileO();//受试者不依从或违背方案报告
+    private ApprovalFileO file_cr = new ApprovalFileO();//定期跟踪报告
+    private ApprovalFileO file104 = new ApprovalFileO();//年度或定期跟踪审查报告
+    private ApprovalFileO file105 = new ApprovalFileO();//暂停研究报告模板
+    private ApprovalFileO file107 = new ApprovalFileO();//提前终止研究报告模板
+    private ApprovalFileO file94 = new ApprovalFileO();//关中心函
+    private ApprovalFileO file95 = new ApprovalFileO();//分中心小结
+    private ApprovalFileO file96 = new ApprovalFileO();//总结报告
+    private ApprovalFileO file_fr98 = new ApprovalFileO();//结题报告其他
+    private ApprovalFileO file_ot98 = new ApprovalFileO();//其他文件
 
-    private Integer amendmentCheck1;//跟踪审查id数组 1:本院严重不良事件
-    private String reportType;         //报告类型id 1:"首次报告", 2:"随访报告", 3:"总结报告", 4:"首次+随访", 5:"首次+总结", 6:"随访+总结", 7:"首次+随访+总结", 8:"首报（更新）", 9:"随访（更新）", 10:"总结（更新）",
-    private String number;              //受试者编号
-    private String diagnose;            //诊断
+    public Map<String, Object> initMap() {
+        Map<String ,Object> map = new HashMap<>();
+        map.put("projectNumber", "ETS-2020-0724-008");
+        map.put("name", "新冠疫苗研发");
+        map.put("projectType", "药物临床试验");
+        map.put("medicalInstrumentName", "疫苗研发");
+        map.put("testInstrumentType", "Ⅱ期");
+        map.put("sponsorUnit", "疾控中心");
+        map.put("researchNature", "国际多中心");
+        map.put("role", "组长单位");
+        map.put("leaderUnit", "国家疾控");
+        map.put("joinUnit", "各个疾控");
+        map.put("undertakeDepartment", "传染病科");
+        map.put("incharge", "国家");
+        map.put("researchMethod1", 0);
+        map.put("researchMethod2", 1);
+        map.put("researchMethod3", 0);
+        map.put("researchMethod4", 1);
+        map.put("researchMethod5", 0);
+        map.put("sampleData", 1);
+        map.put("sampleSource1", 1);
+        map.put("sampleSource2", 0);
+        map.put("sampleSource3", 0);
+        map.put("sampleSource4", 0);
+        map.put("sampleInput1", "既往病史");
+        map.put("inheritance1", 1);
+        map.put("inheritance2", 0);
+        map.put("inheritance3", 1);
+        map.put("inheritance4", 0);
+        map.put("inheritance5", 1);
+        map.put("inheritance6", 1);
+        map.put("register", "是");
+        map.put("arange", "是");
+        map.put("checkType", 1);
+        List<FileInfoO> fileInfoOS = new ArrayList<>();
+        FileInfoO fileInfoO = new FileInfoO();
+        fileInfoO.init("文件1","937492","20200723");
+        fileInfoOS.add(fileInfoO);
+        fileInfoOS.add(fileInfoO);
+        file31.init(1, fileInfoOS);
+        file68.init(1, fileInfoOS);
+        map.put("file31", file31);
+        map.put("file68", file68);
+        return map;
+    }
 
-    private Integer amendmentCheck2;//跟踪审查id数组 2:安全性报告
-    private Integer safeReport1;   //全性报告id数组 1:'外院SAE'
-    private Integer safeReport2;   //全性报告id数组 2:'SUSAR'
-    private Integer safeReport3;   //全性报告id数组 3:'MSR'
-    private Integer safeReport4;   //全性报告id数组 4:'药物的安全性报告'
-    private Integer safeReport5;   //全性报告id数组 5:'其他’
-    private String safeInputOther;      //安全性报告的其他字段
-    private List<String> safeInput;     //报告时间范围，长度为4，没有为‘’
+    public static class ApprovalFileO {
+        private Integer checked;//是否选中：0-否，1-是
+        private List<FileInfoO> files;//文件信息
 
-    private Integer amendmentCheck3;//跟踪审查id数组 3:方案违背报告
-    private Integer breach1;       //方案违背报告id 1:"严重违背"
-    private Integer breach2;       //方案违背报告id 2:"轻度违背"
-    private List<String> breachInput;   //违背例数数组,长度为2.没有值为‘’
+        public ApprovalFileO() {
+            this.checked = 0;
+            this.files = new ArrayList<>();
+        }
 
-    private Integer amendmentCheck4;//跟踪审查id数组 4:定期跟踪报告
-    private String frequency;          //批准跟踪审查频率id 1:"3个月", 2:"6个月", 3:"12个月", 4:"其他",
-    private String time;                //上一次跟踪时间
+        public ApprovalFileO init(Integer checked, List<FileInfoO> files) {
+            this.checked = checked;
+            this.files = files;
+            return this;
+        }
 
-    private Integer amendmentCheck5;//跟踪审查id数组 5:暂停研究报告
-    private Integer amendmentCheck6;//跟踪审查id数组 6:提前终止研究报告
-    private Integer amendmentCheck7;//跟踪审查id数组 7:结题报告
-    private Integer closingreport1;//结题报告id数组 1:"关中心函"
-    private Integer closingreport2;//结题报告id数组 2:"分中心小结"
-    private Integer closingreport3;//结题报告id数组 3:"总结报告"
-    private Integer closingreport4;//结题报告id数组 4:'其他’
-    private String closingInput;        //结题报告的其他字段
+        public Integer getChecked() {
+            return checked;
+        }
 
-    private Integer amendmentCheck8;//跟踪审查id数组 8:其他文件
-    private String otherInput;          //其他文件
+        public void setChecked(Integer checked) {
+            this.checked = checked;
+        }
 
-    //申请及送审流程
-    private String approvalName;    //送审人姓名
-    private String approvalLevel;   //送审人职位
-    private String approvalPhone;   //送审人联系方式
-    private String approvalUnit;    //送审人单位
-    private String inchargePhone;   //主要研究者联系方式
+        public List<FileInfoO> getFiles() {
+            return files;
+        }
 
+        public void setFiles(List<FileInfoO> files) {
+            this.files = files;
+        }
+    }
+
+    public static class FileInfoO {
+        private String name;//文件名称
+        private String number;//第二个空
+        private String content;//第三个空
+
+        public FileInfoO() {
+            this.name = "";
+            this.number = "";
+            this.content = "";
+        }
+
+        public void init(String name, String number, String content) {
+            this.name = name;
+            this.number = number;
+            this.content= content;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getNumber() {
+            return number;
+        }
+
+        public void setNumber(String number) {
+            this.number = number;
+        }
+
+        public String getContent() {
+            return content;
+        }
+
+        public void setContent(String content) {
+            this.content = content;
+        }
+    }
 }
