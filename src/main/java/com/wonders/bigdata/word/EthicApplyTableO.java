@@ -1,9 +1,6 @@
 package com.wonders.bigdata.word;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Description: <br>
@@ -83,7 +80,10 @@ public class EthicApplyTableO {
     private ApprovalFileO file86 = new ApprovalFileO();//CRO资质证明
     private ApprovalFileO file87 = new ApprovalFileO();//中心实验室资质证明
     private ApprovalFileO file88 = new ApprovalFileO();//初始其他
-    private ApprovalFileO file_sae = new ApprovalFileO();//本院严重不良事件
+    //本院严重不良事件
+    private String reportType;//报告编号
+    private String subjectNumber;//受试者编号
+    private String diagnosis;//诊断
     private ApprovalFileO file101 = new ApprovalFileO();//非预期严重不良事件汇总记录表
     private ApprovalFileO file63 = new ApprovalFileO();//外院SAE
     private ApprovalFileO file89 = new ApprovalFileO();//SUSAR
@@ -94,7 +94,9 @@ public class EthicApplyTableO {
     private ApprovalFileO file92 = new ApprovalFileO();//严重违背
     private ApprovalFileO file93 = new ApprovalFileO();//轻度违背
     private ApprovalFileO file103 = new ApprovalFileO();//受试者不依从或违背方案报告
-    private ApprovalFileO file_cr = new ApprovalFileO();//定期跟踪报告
+    //定期跟踪报告
+    private String trackFrequency;//批准跟踪频率
+    private String lastTrackTime;//上一次跟踪时间
     private ApprovalFileO file104 = new ApprovalFileO();//年度或定期跟踪审查报告
     private ApprovalFileO file105 = new ApprovalFileO();//暂停研究报告模板
     private ApprovalFileO file107 = new ApprovalFileO();//提前终止研究报告模板
@@ -138,17 +140,122 @@ public class EthicApplyTableO {
         map.put("register", "是");
         map.put("arange", "是");
         map.put("checkType", 1);
+        map.put("trackType", 4);
         List<FileInfoO> fileInfoOS = new ArrayList<>();
         FileInfoO fileInfoO = new FileInfoO();
-        fileInfoO.init("文件1","937492","20200723");
+        fileInfoO.init("流行病学或统计学相关专业老师签字文件","937492","20200723");
         fileInfoOS.add(fileInfoO);
         fileInfoOS.add(fileInfoO);
         file31.init(1, fileInfoOS);
         file68.init(1, fileInfoOS);
         map.put("file31", file31);
         map.put("file68", file68);
+        map.put("file5", file68);
+        map.put("file7", file68);
+        map.put("file8", file68);
+        map.put("file69", file68);
+        map.put("file70", file68);
+        map.put("file71", file68);
+        map.put("file75", file68);
+        map.put("file76", file68);
+        map.put("file12", file68);
+        map.put("file50", file68);
+        map.put("file9", file68);
+        map.put("file10", file68);
+        map.put("file77", file68);
+        map.put("file72", file68);
+        map.put("file73", file68);
+        map.put("file79", file68);
+        map.put("file80", file68);
+        map.put("file81", file68);
+        map.put("file82", file68);
+        map.put("file109", file68);
+        map.put("file110", file68);
+        map.put("file62", file68);
+        map.put("file97", file68);
+        map.put("file85", file68);
+        map.put("file86", file68);
+        map.put("file87", file68);
+        map.put("file88", file68);
+        map.put("reportType", "随访");
+        map.put("subjectNumber", "ETD-02936456383");
+        map.put("diagnosis", "重症痊愈患者");
+        map.put("file101", file68);
+        map.put("file63", file68);
+        map.put("file89", file68);
+        map.put("file90", file68);
+        map.put("file91", file68);
+        map.put("file102", file68);
+        map.put("file98", file68);
+        map.put("file92", file68);
+        map.put("file93", file68);
+        map.put("file103", file68);
+        map.put("trackFrequency", "三个月");
+        map.put("lastTrackTime", "2020-03-05");
+        map.put("file104", file68);
+        map.put("file105", file68);
+        map.put("file107", file68);
+        map.put("file94", file68);
+        map.put("file95", file68);
+        map.put("file96", file68);
+        map.put("file_fr98", file68);
+        map.put("file_ot98", file68);
+        map.put("checkOS", new ArrayList<>());
+        map.put("frequency", 3);
+        map.put("effectiveYear", "2020");
+        map.put("effectiveMonth", "07");
+        map.put("effectiveDay", "28");
+        map.put("invalidYear", "2020");
+        map.put("invalidMonth", "10");
+        map.put("invalidDay", "28");
+        map.put("checkTime", "2020-07-28");
+        //map.put("checkType", "简易审查");
+        map.put("meetingShouldNum", "");
+        map.put("meetingActualNum", "");
+        map.put("meetingVoteNum", "");
+        map.put("confilictExaminer", "");
+        map.put("result", "通过");
+        map.put("comment", "有待完善");
+        map.put("trackCheckFrequency", "3个月");
+        map.put("day", "2020-07-30");
+        map.put("time", "17:05:05");
+        map.put("address", "203");
+        Map<String, Object> map1 = new HashMap<>();
+        map1.put("checkbox", 1);
+        map1.put("name", "赵委员");
+        map.put("examinerOS", Arrays.asList(map1,map1,map1));
+        map.put("host", "金主持");
+        map.put("workers", "钱研究、孙博");
+        map.put("shouldCome", 3);
+        map.put("actualCome", 3);
+        map.put("confilictExaminer", "疾控研究员");
+        CheckProjectO checkProjectO = new CheckProjectO();
+        checkProjectO.initEmpty();
+        map.put("retrial", Arrays.asList(checkProjectO,checkProjectO));
+        map.put("firstTrial", Arrays.asList(checkProjectO));
+        map.put("amendmentsTrial", Arrays.asList(checkProjectO));
+        map.put("annualTrial", Arrays.asList(checkProjectO));
+        map.put("saeTrial", Arrays.asList(checkProjectO));
+        map.put("safetyReportTrial", Arrays.asList(checkProjectO));
+        map.put("violationPlanTrial", Arrays.asList(checkProjectO));
+        map.put("terminationTrial", Arrays.asList(checkProjectO));
+        map.put("closingTrial", Arrays.asList(checkProjectO));
+        map.put("subjectsComplainTrial", Arrays.asList(checkProjectO));
+        map.put("siteVisit", Arrays.asList(checkProjectO));
         return map;
     }
+
+    private List<CheckProjectO> retrial;//重审a
+    private List<CheckProjectO> firstTrial;//初始审查b
+    private List<CheckProjectO> amendmentsTrial;//修正案审查c
+    private List<CheckProjectO> annualTrial;//年度/定期跟踪审查d
+    private List<CheckProjectO> saeTrial;//严重不良事件审查e
+    private List<CheckProjectO> safetyReportTrial;//安全性报告审查f
+    private List<CheckProjectO> violationPlanTrial;//违背方案审查g
+    private List<CheckProjectO> terminationTrial;//暂停/终止研究审查h
+    private List<CheckProjectO> closingTrial;//结题项目审查i
+    private List<CheckProjectO> subjectsComplainTrial;//受试者抱怨j
+    private List<CheckProjectO> siteVisit;//现场访视k
 
     public static class ApprovalFileO {
         private Integer checked;//是否选中：0-否，1-是
@@ -221,6 +328,272 @@ public class EthicApplyTableO {
 
         public void setContent(String content) {
             this.content = content;
+        }
+    }
+
+    public class CheckProjectO {
+        private Integer orderNumber;            //会议审查项目序号
+        private String number;                  //受理号
+        private String name;                    //项目名称
+        private String undertakeDepartment;     //承担科室
+        private String incharge;                //主要研究者
+        private String sponsorUnit;             //申办单位
+        private String researchType;            //研究类型
+        private String masterExaminer;          //主审委员
+        private String indepandentConsultant;   //独立顾问
+        private String reporter;                //汇报人
+        private String subjectNumber;           //受试者编号
+        private String saeDiagnose;             //SAE诊断
+        private String reportTime;              //报告时间范围
+        private String reportType;              //报告类型/类别
+        private String violationNum;            //违背例数
+        private String violationDegree;         //违背程度
+        private String violationDetail;         //违背详情
+        private String questionsAndAnswers;     //提问与答疑
+        private String confilictExaminer;       //申请人、声明有利益冲突的委员/独立顾问退出
+        private String discuss;                 //讨论
+        private List<String> pollResults;      //投票结果数组，按顺序获取每种结果的票数，没票则为0票
+        private Integer result;                 //审查决定：1-同意，2-不同意，3-修改后同意，4-修改后重审，5-终止或暂停已批准的研究。。。
+        private String comment;                 //审查意见
+        private Integer frequencyType;          //跟踪审查频率：1-不变，2-改变，3-不适用
+        private Integer frequency;              //跟踪审查频率：3-3个月，6-6个月，12-12个月，13-其他，14-不适用
+        private String frequencyInput;          //跟踪审查频率：其他输入框
+
+        public void initEmpty() {
+            this.orderNumber = 1;
+            this.number = "ETR-303920-20200706";
+            this.name = "疾病预防研究";
+            this.undertakeDepartment = "传染病科";
+            this.incharge = "张医生";
+            this.sponsorUnit = "疾控中心";
+            this.researchType = "药物研究";
+            this.masterExaminer = "李医生、张医生";
+            this.indepandentConsultant = "疾控主管";
+            this.reporter = "张医生";
+            this.subjectNumber = "SHOFZ-0004";
+            this.saeDiagnose = "SAE-009";
+            this.reportTime = "2020-07-29";
+            this.reportType = "随访";
+            this.violationNum = "343";
+            this.violationDegree = "地点";
+            this.violationDetail = "疼好的规定";
+            this.questionsAndAnswers = "问：药物分析进度？答：稳步推进";
+            this.confilictExaminer = "疾控研究员";
+            this.discuss = "无讨论";
+            this.pollResults = Arrays.asList("2", "1", "0", "3", "1", "1");
+            this.result = 1;
+            this.comment = "批准同意";
+            this.frequencyType = 1;
+            this.frequency = 3;
+            this.frequencyInput = "";
+        }
+
+        public void setOrderNumber(Integer orderNumber) {
+            this.orderNumber = orderNumber;
+        }
+
+        public void setNumber(String number) {
+            this.number = number;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public void setUndertakeDepartment(String undertakeDepartment) {
+            this.undertakeDepartment = undertakeDepartment;
+        }
+
+        public void setIncharge(String incharge) {
+            this.incharge = incharge;
+        }
+
+        public void setSponsorUnit(String sponsorUnit) {
+            this.sponsorUnit = sponsorUnit;
+        }
+
+        public void setResearchType(String researchType) {
+            this.researchType = researchType;
+        }
+
+        public void setMasterExaminer(String masterExaminer) {
+            this.masterExaminer = masterExaminer;
+        }
+
+        public void setIndepandentConsultant(String indepandentConsultant) {
+            this.indepandentConsultant = indepandentConsultant;
+        }
+
+        public void setReporter(String reporter) {
+            this.reporter = reporter;
+        }
+
+        public void setSubjectNumber(String subjectNumber) {
+            this.subjectNumber = subjectNumber;
+        }
+
+        public void setSaeDiagnose(String saeDiagnose) {
+            this.saeDiagnose = saeDiagnose;
+        }
+
+        public void setReportTime(String reportTime) {
+            this.reportTime = reportTime;
+        }
+
+        public void setReportType(String reportType) {
+            this.reportType = reportType;
+        }
+
+        public void setViolationNum(String violationNum) {
+            this.violationNum = violationNum;
+        }
+
+        public void setViolationDegree(String violationDegree) {
+            this.violationDegree = violationDegree;
+        }
+
+        public void setViolationDetail(String violationDetail) {
+            this.violationDetail = violationDetail;
+        }
+
+        public void setQuestionsAndAnswers(String questionsAndAnswers) {
+            this.questionsAndAnswers = questionsAndAnswers;
+        }
+
+        public void setConfilictExaminer(String confilictExaminer) {
+            this.confilictExaminer = confilictExaminer;
+        }
+
+        public void setDiscuss(String discuss) {
+            this.discuss = discuss;
+        }
+
+        public void setPollResults(List<String> pollResults) {
+            this.pollResults = pollResults;
+        }
+
+        public void setResult(Integer result) {
+            this.result = result;
+        }
+
+        public void setComment(String comment) {
+            this.comment = comment;
+        }
+
+        public void setFrequencyType(Integer frequencyType) {
+            this.frequencyType = frequencyType;
+        }
+
+        public void setFrequency(Integer frequency) {
+            this.frequency = frequency;
+        }
+
+        public void setFrequencyInput(String frequencyInput) {
+            this.frequencyInput = frequencyInput;
+        }
+
+        public Integer getOrderNumber() {
+            return orderNumber;
+        }
+
+        public String getNumber() {
+            return number;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public String getUndertakeDepartment() {
+            return undertakeDepartment;
+        }
+
+        public String getIncharge() {
+            return incharge;
+        }
+
+        public String getSponsorUnit() {
+            return sponsorUnit;
+        }
+
+        public String getResearchType() {
+            return researchType;
+        }
+
+        public String getMasterExaminer() {
+            return masterExaminer;
+        }
+
+        public String getIndepandentConsultant() {
+            return indepandentConsultant;
+        }
+
+        public String getReporter() {
+            return reporter;
+        }
+
+        public String getSubjectNumber() {
+            return subjectNumber;
+        }
+
+        public String getSaeDiagnose() {
+            return saeDiagnose;
+        }
+
+        public String getReportTime() {
+            return reportTime;
+        }
+
+        public String getReportType() {
+            return reportType;
+        }
+
+        public String getViolationNum() {
+            return violationNum;
+        }
+
+        public String getViolationDegree() {
+            return violationDegree;
+        }
+
+        public String getViolationDetail() {
+            return violationDetail;
+        }
+
+        public String getQuestionsAndAnswers() {
+            return questionsAndAnswers;
+        }
+
+        public String getConfilictExaminer() {
+            return confilictExaminer;
+        }
+
+        public String getDiscuss() {
+            return discuss;
+        }
+
+        public List<String> getPollResults() {
+            return pollResults;
+        }
+
+        public Integer getResult() {
+            return result;
+        }
+
+        public String getComment() {
+            return comment;
+        }
+
+        public Integer getFrequencyType() {
+            return frequencyType;
+        }
+
+        public Integer getFrequency() {
+            return frequency;
+        }
+
+        public String getFrequencyInput() {
+            return frequencyInput;
         }
     }
 }

@@ -6,9 +6,7 @@ import freemarker.template.Template;
 import sun.misc.BASE64Encoder;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Description: <br>
@@ -47,6 +45,7 @@ public class CreateWord {
                     "临床研究数据对外开放共享须得到医院协议许可或批准。" +
                     "院外资助方可按事先与医院签署的协议规定共享或使用经医院质控的数据。";
             map.put("sponsorTypeList", Arrays.asList(sponsorTypeO));
+            map.put("number", "REST-IIT-2020-0605");
             map.put("sponsorPurpose", "资助目的");
             map.put("sponsorStatement", sponsorStatement);
             map.put("declareDescription", "遗传说明");
@@ -118,16 +117,47 @@ public class CreateWord {
             map.put("statistician", "院外统计师：小黄(上海科研所)");
             map.put("researchMethod1", 1);
             map.put("researchMethod2", 0);
+            map.put("checkOpinion", "临床研究中心意见");
+            map.put("undertakeDepartmentName", "急诊科");
+            map.put("inchargeName", "医生1");
+            List<Map<String, Object>> opinions = new ArrayList<>();
+            List<Map<String, Object>> amendmentDetails = new ArrayList<>();
+            Map<String, Object> opinion = new HashMap<>();
+            Map<String, Object> amendmentDetail = new HashMap<>();
+            amendmentDetail.put("result", "23456543212345676543");
+            amendmentDetail.put("detail", "33333333333333333333333333333333333333 33333333333333333333333333333333333 33333333333333333333333333333333333333333");
+            amendmentDetails.add(amendmentDetail);
+            amendmentDetails.add(amendmentDetail);
+            opinion.put("amendmentDetails", amendmentDetails);
+            opinion.put("revisionInstruction", "其他修正需要有专家论证及指导以及大型研究公司资助。随风我胡丢额我年度率和女巫额不行年底女电脑腐恶随风我胡丢额我年度率和女巫额不行年底女电脑腐恶随风我胡丢额我年度率和女巫额不行年底女电脑腐恶");
+            opinion.put("year", "2020");
+            opinion.put("month", "08");
+            opinion.put("day", "18");
+            opinions.add(opinion);
+            opinions.add(opinion);
+            map.put("opinions", opinions);
+            map.put("sponsorUnitName", "仁济医院");
+            map.put("researcherName", "张医生");
+            map.put("a", 34.6);
+            map.put("b", 78.5);
+            map.put("c", 87.5);
+            map.put("d", 96);
+            map.put("e", 68.5);
+            map.put("totalScore", 78.56);
+            map.put("isOpen", 0);
+            map.put("status", 2);
+            map.put("comment", "可以开始执行先一步任务");
+            map.put("userNameAndDate", "李专家-2020-08-18");
             //configuration用于读取ftl文件
             Configuration configuration = new Configuration();
             configuration.setDefaultEncoding("utf-8");
             configuration.setDirectoryForTemplateLoading(new File("c:/file/"));
             //输出文档路径及名称
-            File outFile = new File("c:/file/伦理审查申请及受理表.doc");
+            File outFile = new File("c:/file/学术审查申请表（其他）.doc");
             //以utf-8的编码读取ftl文件
-            Template template = configuration.getTemplate("伦理审查申请及受理表.ftl", "utf-8");
+            Template template = configuration.getTemplate("学术审查申请表（其他）.ftl", "utf-8");
             Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outFile), "utf-8"), 10240);
-            map = new EthicApplyTableO().initMap();
+            map.putAll(new EthicApplyTableO().initMap());
             template.process(map, out);
             out.close();
         }catch (Exception e) {
