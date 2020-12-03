@@ -151,11 +151,12 @@ public class CreateWord {
             //configuration用于读取ftl文件
             Configuration configuration = new Configuration();
             configuration.setDefaultEncoding("utf-8");
-            configuration.setDirectoryForTemplateLoading(new File("c:/file/"));
+            configuration.setDirectoryForTemplateLoading(new File("c:/file/ethic/"));
             //输出文档路径及名称
-            File outFile = new File("c:/file/学术审查申请表（其他）.doc");
+            String name = "伦理审查申请及受理表申请表";
+            File outFile = new File("c:/file/ethic/" + name +".doc");
             //以utf-8的编码读取ftl文件
-            Template template = configuration.getTemplate("学术审查申请表（其他）.ftl", "utf-8");
+            Template template = configuration.getTemplate(name + ".ftl", "utf-8");
             Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outFile), "utf-8"), 10240);
             map.putAll(new EthicApplyTableO().initMap());
             template.process(map, out);

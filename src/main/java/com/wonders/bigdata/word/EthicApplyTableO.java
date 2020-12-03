@@ -109,6 +109,7 @@ public class EthicApplyTableO {
     public Map<String, Object> initMap() {
         Map<String ,Object> map = new HashMap<>();
         map.put("projectNumber", "ETS-2020-0724-008");
+        map.put("acceptanceNumber", "ETHIC-TANCE-09808");
         map.put("name", "新冠疫苗研发");
         map.put("projectType", "药物临床试验");
         map.put("medicalInstrumentName", "疫苗研发");
@@ -177,9 +178,12 @@ public class EthicApplyTableO {
         map.put("file86", file68);
         map.put("file87", file68);
         map.put("file88", file68);
+        map.put("file112", file68);
+        map.put("file113", file68);
         map.put("reportType", "随访");
         map.put("subjectNumber", "ETD-02936456383");
         map.put("diagnosis", "重症痊愈患者");
+        map.put("file100", file68);
         map.put("file101", file68);
         map.put("file63", file68);
         map.put("file89", file68);
@@ -194,6 +198,7 @@ public class EthicApplyTableO {
         map.put("lastTrackTime", "2020-03-05");
         map.put("file104", file68);
         map.put("file105", file68);
+        map.put("file106", file68);
         map.put("file107", file68);
         map.put("file94", file68);
         map.put("file95", file68);
@@ -236,12 +241,19 @@ public class EthicApplyTableO {
         map.put("amendmentsTrial", Arrays.asList(checkProjectO));
         map.put("annualTrial", Arrays.asList(checkProjectO));
         map.put("saeTrial", Arrays.asList(checkProjectO));
+        map.put("otherTrial", Arrays.asList(checkProjectO));
         map.put("safetyReportTrial", Arrays.asList(checkProjectO));
         map.put("violationPlanTrial", Arrays.asList(checkProjectO));
         map.put("terminationTrial", Arrays.asList(checkProjectO));
         map.put("closingTrial", Arrays.asList(checkProjectO));
         map.put("subjectsComplainTrial", Arrays.asList(checkProjectO));
         map.put("siteVisit", Arrays.asList(checkProjectO));
+        MeetingSingInWordO meetingSingInWordO = new MeetingSingInWordO();
+        meetingSingInWordO.init();
+        map.put("meetingSingInWordOs", Arrays.asList(meetingSingInWordO,meetingSingInWordO));
+        map.put("filesNumber", "ETHIC-0283-463");
+        map.put("version", "V3.0");
+        map.put("versionDate", "2020-10-28");
         return map;
     }
 
@@ -358,6 +370,18 @@ public class EthicApplyTableO {
         private Integer frequencyType;          //跟踪审查频率：1-不变，2-改变，3-不适用
         private Integer frequency;              //跟踪审查频率：3-3个月，6-6个月，12-12个月，13-其他，14-不适用
         private String frequencyInput;          //跟踪审查频率：其他输入框
+        private String checkType;          //
+        private String fileNumber;         //
+        private String originResult;         //
+        private String reportContent;           //报告内容/访查内容及结果/处理过程及结果
+        private String subjects;                //受试者
+        private String diagnosis;               //诊断
+        private String relevant;                //相关
+        private String anticipation;            //预期性
+        private String degree;                  //程度
+        private String treatment;               //处理措施
+        private String terminateReason;         //终止原因
+        private String complaintContent;        //抱怨内容
 
         public void initEmpty() {
             this.orderNumber = 1;
@@ -386,6 +410,18 @@ public class EthicApplyTableO {
             this.frequencyType = 1;
             this.frequency = 3;
             this.frequencyInput = "";
+            this.checkType = "会议审查";
+            this.fileNumber = "F-0092-ED1";
+            this.originResult = "原始结果";
+            this.reportContent = "报告内容";           //报告内容/访查内容及结果/处理过程及结果
+            this.subjects = "受试者";                //受试者
+            this.diagnosis = "诊断结果阳性";               //诊断
+            this.relevant = "追踪相关轨迹";                //相关
+            this.anticipation = "预期防御";            //预期性
+            this.degree = "红色预警";                  //程度
+            this.treatment = "隔离14天观察";               //处理措施
+            this.terminateReason = "隔离期到";         //终止原因
+            this.complaintContent = "没有人性化防御措施";        //抱怨内容
         }
 
         public void setOrderNumber(Integer orderNumber) {
@@ -594,6 +630,142 @@ public class EthicApplyTableO {
 
         public String getFrequencyInput() {
             return frequencyInput;
+        }
+
+        public String getCheckType() {
+            return checkType;
+        }
+
+        public void setCheckType(String checkType) {
+            this.checkType = checkType;
+        }
+
+        public String getFileNumber() {
+            return fileNumber;
+        }
+
+        public void setFileNumber(String fileNumber) {
+            this.fileNumber = fileNumber;
+        }
+
+        public String getOriginResult() {
+            return originResult;
+        }
+
+        public void setOriginResult(String originResult) {
+            this.originResult = originResult;
+        }
+
+        public String getReportContent() {
+            return reportContent;
+        }
+
+        public String getSubjects() {
+            return subjects;
+        }
+
+        public String getDiagnosis() {
+            return diagnosis;
+        }
+
+        public String getRelevant() {
+            return relevant;
+        }
+
+        public String getAnticipation() {
+            return anticipation;
+        }
+
+        public String getDegree() {
+            return degree;
+        }
+
+        public String getTreatment() {
+            return treatment;
+        }
+
+        public String getTerminateReason() {
+            return terminateReason;
+        }
+
+        public String getComplaintContent() {
+            return complaintContent;
+        }
+    }
+
+    public class MeetingSingInWordO {
+        private String name;   //专家名字
+        private String sex;    //性别
+        private String unit;   //工作单位
+        private String backgrounds;  //专业背景
+        private String role;     //职务
+        private String tenure;      //任期
+        private String post;   //职位
+
+        public void init() {
+            this.name = "张专家";
+            this.sex = "男";
+            this.unit = "仁济医院";
+            this.backgrounds = "教授";
+            this.role = "研究员";
+            this.tenure = "四年";
+            this.post = "主任医师";
+        }
+
+        public String getRole() {
+            return role;
+        }
+
+        public void setRole(String role) {
+            this.role = role;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getSex() {
+            return sex;
+        }
+
+        public void setSex(String sex) {
+            this.sex = sex;
+        }
+
+        public String getUnit() {
+            return unit;
+        }
+
+        public void setUnit(String unit) {
+            this.unit = unit;
+        }
+
+        public String getBackgrounds() {
+            return backgrounds;
+        }
+
+        public void setBackgrounds(String backgrounds) {
+            this.backgrounds = backgrounds;
+        }
+
+        public String getPost() {
+            return post;
+        }
+
+        public void setPost(String post) {
+            this.post = post;
+        }
+
+        public String getTenure() {
+            return tenure;
+        }
+
+        public void setTenure(String tenure) {
+            this.tenure = tenure;
         }
     }
 }

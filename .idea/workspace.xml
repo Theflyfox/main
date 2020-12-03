@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac80f02-3094-4302-909e-cfe9fd77ab0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T02_ThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Sleep_Yield_Join_Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T05_SyncVsAtomicVsLongAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T06_ReentrantLock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/ThreadPoolEcecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/file/Form 38 - 会议议程附件1：两次会议间快速审查结果通报（V1.0）.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/file/会议记录.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/file/测试word.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/file/测试word.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/word/CreateWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/bigdata/word/CreateWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/测试word.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/file/测试word.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,100 +47,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T02_ThreadLocal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="666">
+              <caret line="423" column="46" selection-start-line="423" selection-start-column="46" selection-end-line="423" selection-end-column="46" />
+              <folding>
+                <element signature="e#24376#24377#0" expanded="true" />
+                <element signature="e#24420#24421#0" expanded="true" />
+                <element signature="e#24459#24460#0" expanded="true" />
+                <element signature="e#24498#24499#0" expanded="true" />
+                <element signature="e#24538#24539#0" expanded="true" />
+                <element signature="e#24578#24579#0" expanded="true" />
+                <element signature="e#24617#24618#0" expanded="true" />
+                <element signature="e#24656#24657#0" expanded="true" />
+                <element signature="e#24699#24700#0" expanded="true" />
+                <element signature="e#24742#24743#0" expanded="true" />
+                <element signature="e#24779#24780#0" expanded="true" />
+                <element signature="e#24816#24817#0" expanded="true" />
+                <element signature="e#24856#24857#0" expanded="true" />
+                <element signature="e#24896#24897#0" expanded="true" />
+                <element signature="e#24942#24943#0" expanded="true" />
+                <element signature="e#24988#24989#0" expanded="true" />
+                <element signature="e#25035#25036#0" expanded="true" />
+                <element signature="e#25082#25083#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Sleep_Yield_Join_Thread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="144">
+              <caret line="151" column="62" lean-forward="true" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Synchronized.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/TextParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/AsposeDoc2Pdf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T04_Disorder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/FileOperate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T01_HelloVolatile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="775">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <caret line="3685" column="47" lean-forward="true" selection-start-line="3685" selection-start-column="47" selection-end-line="3685" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#0;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#1;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#v:line#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#2;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +120,11 @@
       <find>inchargeName</find>
       <find>number</find>
       <find>大漠孤烟直</find>
+      <find>&lt;w:t&gt;</find>
+      <find>$</find>
+      <find>&lt;w:t&gt;$</find>
+      <find>抱怨</find>
+      <find>fileNumber</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,20 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/CreateRandom.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/测试word.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/cdh/TestCDHJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/ScientificUserData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/importUser/SSOUserData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/upload/UploadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表-docm.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表-docx.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicCheckTableInfoO.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表_修改.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表_xiugai.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/测试word (2).ftl" />
-        <option value="$PROJECT_DIR$/src/main/resource/file/测试word2.ftl" />
         <option value="$PROJECT_DIR$/src/main/resource/file/lun.ftl" />
         <option value="$PROJECT_DIR$/src/main/resource/file/测试word1.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/ImageVerificationCode.java" />
@@ -213,14 +169,28 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T01_HelloVolatile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T04_Disorder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/HTMLPageParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/TextParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T02_ThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Sleep_Yield_Join_Thread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T05_SyncVsAtomicVsLongAdder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T06_ReentrantLock2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T06_ReentrantLock1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/HTMLPageParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/TextParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/测试word.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/ThreadPoolEcecutorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/Form 1.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/Form 1 - 副本.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/会议记录.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/Form 1.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/TestList.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/两次会议间快速审查结果通报（V1.0）.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/Form 38 - 会议议程附件1：两次会议间快速审查结果通报（V1.0）.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表.ftl" />
       </list>
     </option>
   </component>
@@ -248,10 +218,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="39" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,8 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,7 +290,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wonders" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
@@ -333,7 +301,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wonders" type="462c0819:PsiDirectoryNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="word" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
@@ -352,32 +320,14 @@
             </path>
             <path>
               <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,18 +345,18 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\project\main\src\main\resource\file" />
-      <recent name="C:\project\main\src\main\java\com\wonders\bigdata\utils" />
-      <recent name="C:\project\main\src\main\webapp\echarts" />
+      <recent name="C:\project\main\src\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wonders.bigdata.word" />
       <recent name="com.wonders.bigdata.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\main\src\main\resource\file" />
-      <recent name="C:\project\main\src\lib" />
+      <recent name="C:\project\main\src\main\java\com\wonders\bigdata\utils" />
+      <recent name="C:\project\main\src\main\webapp\echarts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,13 +371,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T03_Synchronized">
-    <configuration name="HTMLPageParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.webpage.HTMLPageParser" />
+  <component name="RunManager" selected="Application.CreateWord">
+    <configuration name="CreateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.word.CreateWord" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wonders.bigdata.webpage.*" />
+          <option name="PATTERN" value="com.wonders.bigdata.word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_ThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.sync.T02_ThreadLocal" />
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.test.TestList" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wonders.bigdata.sync.*" />
+          <option name="PATTERN" value="com.wonders.bigdata.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -448,25 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T03_Sleep_Yield_Join_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.sync.T03_Sleep_Yield_Join_Thread" />
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.word.TestMain" />
       <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wonders.bigdata.sync.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T03_Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.sync.T03_Synchronized" />
-      <module name="main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wonders.bigdata.sync.*" />
+          <option name="PATTERN" value="com.wonders.bigdata.word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,13 +424,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPoolEcecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wonders.bigdata.sync.ThreadPoolEcecutorTest" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.bigdata.sync.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T03_Synchronized" />
-        <item itemvalue="Application.T03_Sleep_Yield_Join_Thread" />
-        <item itemvalue="Application.T02_ThreadLocal" />
+        <item itemvalue="Application.CreateWord" />
+        <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.ThreadPoolEcecutorTest" />
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.TextParser" />
-        <item itemvalue="Application.HTMLPageParser" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +502,24 @@
       <workItem from="1598323179025" duration="4897000" />
       <workItem from="1598863961483" duration="20169000" />
       <workItem from="1599459620711" duration="1937000" />
-      <workItem from="1599546782187" duration="4274000" />
+      <workItem from="1599546782187" duration="4306000" />
+      <workItem from="1600060401592" duration="8243000" />
+      <workItem from="1600741001557" duration="4987000" />
+      <workItem from="1603258708221" duration="5580000" />
+      <workItem from="1603329324306" duration="3324000" />
+      <workItem from="1603879699814" duration="622000" />
+      <workItem from="1603880557516" duration="143000" />
+      <workItem from="1604472844044" duration="1529000" />
+      <workItem from="1604483054315" duration="602000" />
+      <workItem from="1604555857353" duration="88000" />
+      <workItem from="1604556857127" duration="45000" />
+      <workItem from="1604562316895" duration="46000" />
+      <workItem from="1605059447589" duration="4299000" />
+      <workItem from="1605085205934" duration="3927000" />
+      <workItem from="1605492088566" duration="2057000" />
+      <workItem from="1605753643067" duration="58000" />
+      <workItem from="1606360161225" duration="3110000" />
+      <workItem from="1606699108049" duration="10672000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1588055072851</created>
@@ -589,16 +556,24 @@
       <option name="project" value="LOCAL" />
       <updated>1599534754180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新代码">
+      <created>1599816753170</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599816753170</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266930000" />
+    <option name="totallyTimeSpent" value="316294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="39" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3066343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29088473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -608,7 +583,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3556582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3555241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54618937" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,40 +606,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011547" side_tool="true" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30177993" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09584296" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.54618937" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32794458" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49884528" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32928804" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32847896" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011547" side_tool="true" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -734,73 +675,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表_修改.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表_xiugai.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word (2).ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word2.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/lun.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="139" column="49" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="49" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/listcomparator/UserComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word1.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="8655" column="44" selection-start-line="8655" selection-start-column="44" selection-end-line="8655" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表-docm.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="2445" column="54" selection-start-line="2445" selection-start-column="54" selection-end-line="2445" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/SponsorTypeO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/FundsO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表（其他）.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表（器械）.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表（细胞）.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表（药物）.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/流行病学或统计学相关专业老师签字文件模板.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表（其他）.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/学术审查申请表.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/备注.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/imageVerification/TestMain.java">
@@ -813,25 +687,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/批准函（V2.0-2019.10.15）.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查意见（V2.0-2019.10.15）.ftl" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/file/持续审查意见函（V2.0-2019.10.15）.ftl" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/会议记录（V2.0）.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
-          <folding>
-            <element signature="e#5535#5662#0#HTML" expanded="true" />
-            <element signature="e#10949#11211#0#HTML" expanded="true" />
-            <element signature="e#11346#11384#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78425">
-          <caret line="3137" column="57" selection-start-line="3137" selection-start-column="57" selection-end-line="3137" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -888,109 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="361" column="67" lean-forward="true" selection-start-line="361" selection-start-column="67" selection-end-line="361" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="157" column="27" lean-forward="true" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="159" column="50" selection-start-line="159" selection-start-column="50" selection-end-line="159" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5275">
-          <caret line="211" column="10" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/HTMLPageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/TextParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/AsposeDoc2Pdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T04_Disorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/FileOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T01_HelloVolatile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -1011,22 +763,528 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T02_ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="550">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Sleep_Yield_Join_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="250">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="397" column="42" selection-start-line="397" selection-start-column="22" selection-end-line="397" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T06_ReentrantLock2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T03_Synchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/HTMLPageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T05_SyncVsAtomicVsLongAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T06_ReentrantLock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/utils/AsposeDoc2Pdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T04_Disorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/FileOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/T01_HelloVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/TestMain.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar!/freemarker/template/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_144/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2645">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/测试word.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14475">
+          <caret line="579" column="26" selection-start-line="579" selection-start-column="26" selection-end-line="579" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/会议记录（V2.0）.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:p#1;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:p#2;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="e#74223#74459#0#FTL&gt;" />
+            <element signature="e#74347#74453#0#FTL&gt;" />
+            <element signature="e#76021#76257#0#FTL&gt;" />
+            <element signature="e#76145#76251#0#FTL&gt;" />
+            <element signature="e#77727#77963#0#FTL&gt;" />
+            <element signature="e#77851#77957#0#FTL&gt;" />
+            <element signature="e#79370#79606#0#FTL&gt;" />
+            <element signature="e#79494#79600#0#FTL&gt;" />
+            <element signature="e#81013#81249#0#FTL&gt;" />
+            <element signature="e#81137#81243#0#FTL&gt;" />
+            <element signature="e#89688#89919#0#FTL&gt;" />
+            <element signature="e#89807#89913#0#FTL&gt;" />
+            <element signature="e#102897#103131#0#FTL&gt;" />
+            <element signature="e#103019#103125#0#FTL&gt;" />
+            <element signature="e#106942#107175#0#FTL&gt;" />
+            <element signature="e#107063#107169#0#FTL&gt;" />
+            <element signature="e#108026#108259#0#FTL&gt;" />
+            <element signature="e#108147#108253#0#FTL&gt;" />
+            <element signature="e#109110#109343#0#FTL&gt;" />
+            <element signature="e#109231#109337#0#FTL&gt;" />
+            <element signature="e#110194#110427#0#FTL&gt;" />
+            <element signature="e#110315#110421#0#FTL&gt;" />
+            <element signature="e#111980#112213#0#FTL&gt;" />
+            <element signature="e#112101#112207#0#FTL&gt;" />
+            <element signature="e#113914#114147#0#FTL&gt;" />
+            <element signature="e#114035#114141#0#FTL&gt;" />
+            <element signature="e#120915#121149#0#FTL&gt;" />
+            <element signature="e#121037#121143#0#FTL&gt;" />
+            <element signature="e#131026#131260#0#FTL&gt;" />
+            <element signature="e#131148#131254#0#FTL&gt;" />
+            <element signature="e#141138#141372#0#FTL&gt;" />
+            <element signature="e#141260#141366#0#FTL&gt;" />
+            <element signature="e#170096#170326#0#FTL&gt;" />
+            <element signature="e#170214#170320#0#FTL&gt;" />
+            <element signature="e#173420#173650#0#FTL&gt;" />
+            <element signature="e#173538#173644#0#FTL&gt;" />
+            <element signature="e#176426#176656#0#FTL&gt;" />
+            <element signature="e#176544#176650#0#FTL&gt;" />
+            <element signature="e#180312#180542#0#FTL&gt;" />
+            <element signature="e#180430#180536#0#FTL&gt;" />
+            <element signature="e#183300#183535#0#FTL&gt;" />
+            <element signature="e#183423#183529#0#FTL&gt;" />
+            <element signature="e#188312#195213#0#FTL&gt;" />
+            <element signature="e#198330#198565#0#FTL&gt;" />
+            <element signature="e#198453#198559#0#FTL&gt;" />
+            <element signature="e#203702#210603#0#FTL&gt;" />
+            <element signature="e#213720#213954#0#FTL&gt;" />
+            <element signature="e#213842#213948#0#FTL&gt;" />
+            <element signature="e#218119#225019#0#FTL&gt;" />
+            <element signature="e#231506#231740#0#FTL&gt;" />
+            <element signature="e#231628#231734#0#FTL&gt;" />
+            <element signature="e#235876#242866#0#FTL&gt;" />
+            <element signature="e#246008#246242#0#FTL&gt;" />
+            <element signature="e#246130#246236#0#FTL&gt;" />
+            <element signature="e#250273#257263#0#FTL&gt;" />
+            <element signature="e#263779#264014#0#FTL&gt;" />
+            <element signature="e#263902#264008#0#FTL&gt;" />
+            <element signature="e#268152#275143#0#FTL&gt;" />
+            <element signature="e#278267#278502#0#FTL&gt;" />
+            <element signature="e#278390#278496#0#FTL&gt;" />
+            <element signature="e#282639#289630#0#FTL&gt;" />
+            <element signature="e#292754#292989#0#FTL&gt;" />
+            <element signature="e#292877#292983#0#FTL&gt;" />
+            <element signature="e#297129#304120#0#FTL&gt;" />
+            <element signature="e#310590#310825#0#FTL&gt;" />
+            <element signature="e#310713#310819#0#FTL&gt;" />
+            <element signature="e#314963#321954#0#FTL&gt;" />
+            <element signature="e#325096#325331#0#FTL&gt;" />
+            <element signature="e#325219#325325#0#FTL&gt;" />
+            <element signature="e#329469#336460#0#FTL&gt;" />
+            <element signature="e#339577#339812#0#FTL&gt;" />
+            <element signature="e#339700#339806#0#FTL&gt;" />
+            <element signature="e#343948#350849#0#FTL&gt;" />
+            <element signature="e#353966#354201#0#FTL&gt;" />
+            <element signature="e#354089#354195#0#FTL&gt;" />
+            <element signature="e#356634#361822#0#FTL&gt;" />
+            <element signature="e#364939#365196#0#FTL&gt;" />
+            <element signature="e#365084#365190#0#FTL&gt;" />
+            <element signature="e#373245#380145#0#FTL&gt;" />
+            <element signature="e#380170#387071#0#FTL&gt;" />
+            <element signature="e#390188#390423#0#FTL&gt;" />
+            <element signature="e#390311#390417#0#FTL&gt;" />
+            <element signature="e#394560#401461#0#FTL&gt;" />
+            <element signature="e#408015#408250#0#FTL&gt;" />
+            <element signature="e#408138#408244#0#FTL&gt;" />
+            <element signature="e#410579#415857#0#FTL&gt;" />
+            <element signature="e#418999#419234#0#FTL&gt;" />
+            <element signature="e#419122#419228#0#FTL&gt;" />
+            <element signature="e#421564#426842#0#FTL&gt;" />
+            <element signature="e#433360#433595#0#FTL&gt;" />
+            <element signature="e#433483#433589#0#FTL&gt;" />
+            <element signature="e#436139#441417#0#FTL&gt;" />
+            <element signature="e#444559#444794#0#FTL&gt;" />
+            <element signature="e#444682#444788#0#FTL&gt;" />
+            <element signature="e#447335#452613#0#FTL&gt;" />
+            <element signature="e#455755#455990#0#FTL&gt;" />
+            <element signature="e#455878#455984#0#FTL&gt;" />
+            <element signature="e#458526#463804#0#FTL&gt;" />
+            <element signature="e#466946#467181#0#FTL&gt;" />
+            <element signature="e#467069#467175#0#FTL&gt;" />
+            <element signature="e#470899#476177#0#FTL&gt;" />
+            <element signature="e#482733#482969#0#FTL&gt;" />
+            <element signature="e#482857#482963#0#FTL&gt;" />
+            <element signature="e#485298#490577#0#FTL&gt;" />
+            <element signature="e#493719#493955#0#FTL&gt;" />
+            <element signature="e#493843#493949#0#FTL&gt;" />
+            <element signature="e#496759#502038#0#FTL&gt;" />
+            <element signature="e#505155#505390#0#FTL&gt;" />
+            <element signature="e#505278#505384#0#FTL&gt;" />
+            <element signature="e#509556#516457#0#FTL&gt;" />
+            <element signature="e#519574#519809#0#FTL&gt;" />
+            <element signature="e#519697#519803#0#FTL&gt;" />
+            <element signature="e#524468#531369#0#FTL&gt;" />
+            <element signature="e#534486#534721#0#FTL&gt;" />
+            <element signature="e#534609#534715#0#FTL&gt;" />
+            <element signature="e#539855#546756#0#FTL&gt;" />
+            <element signature="e#549873#550108#0#FTL&gt;" />
+            <element signature="e#549996#550102#0#FTL&gt;" />
+            <element signature="e#555242#562143#0#FTL&gt;" />
+            <element signature="e#565260#565495#0#FTL&gt;" />
+            <element signature="e#565383#565489#0#FTL&gt;" />
+            <element signature="e#570631#577532#0#FTL&gt;" />
+            <element signature="e#580649#580884#0#FTL&gt;" />
+            <element signature="e#580772#580878#0#FTL&gt;" />
+            <element signature="e#584981#591882#0#FTL&gt;" />
+            <element signature="e#593748#593978#0#FTL&gt;" />
+            <element signature="e#593866#593972#0#FTL&gt;" />
+            <element signature="e#606538#606774#0#FTL&gt;" />
+            <element signature="e#606662#606768#0#FTL&gt;" />
+            <element signature="e#611059#617961#0#FTL&gt;" />
+            <element signature="e#621031#621261#0#FTL&gt;" />
+            <element signature="e#621149#621255#0#FTL&gt;" />
+            <element signature="e#623469#623704#0#FTL&gt;" />
+            <element signature="e#623592#623698#0#FTL&gt;" />
+            <element signature="e#627687#632864#0#FTL&gt;" />
+            <element signature="e#635914#636149#0#FTL&gt;" />
+            <element signature="e#636037#636143#0#FTL&gt;" />
+            <element signature="e#639611#644788#0#FTL&gt;" />
+            <element signature="e#647838#648073#0#FTL&gt;" />
+            <element signature="e#647961#648067#0#FTL&gt;" />
+            <element signature="e#651533#656710#0#FTL&gt;" />
+            <element signature="e#659760#659995#0#FTL&gt;" />
+            <element signature="e#659883#659989#0#FTL&gt;" />
+            <element signature="e#663907#669084#0#FTL&gt;" />
+            <element signature="e#672134#672370#0#FTL&gt;" />
+            <element signature="e#672258#672364#0#FTL&gt;" />
+            <element signature="e#676510#683412#0#FTL&gt;" />
+            <element signature="e#686462#686697#0#FTL&gt;" />
+            <element signature="e#686585#686691#0#FTL&gt;" />
+            <element signature="e#690794#697695#0#FTL&gt;" />
+            <element signature="e#700163#700393#0#FTL&gt;" />
+            <element signature="e#700281#700387#0#FTL&gt;" />
+            <element signature="e#703496#703731#0#FTL&gt;" />
+            <element signature="e#703619#703725#0#FTL&gt;" />
+            <element signature="e#706604#711781#0#FTL&gt;" />
+            <element signature="e#714831#715066#0#FTL&gt;" />
+            <element signature="e#714954#715060#0#FTL&gt;" />
+            <element signature="e#718322#723499#0#FTL&gt;" />
+            <element signature="e#726614#726850#0#FTL&gt;" />
+            <element signature="e#726738#726844#0#FTL&gt;" />
+            <element signature="e#730994#737896#0#FTL&gt;" />
+            <element signature="e#739762#739992#0#FTL&gt;" />
+            <element signature="e#739880#739986#0#FTL&gt;" />
+            <element signature="e#751825#752061#0#FTL&gt;" />
+            <element signature="e#751949#752055#0#FTL&gt;" />
+            <element signature="e#756203#763105#0#FTL&gt;" />
+            <element signature="e#764907#765137#0#FTL&gt;" />
+            <element signature="e#765025#765131#0#FTL&gt;" />
+            <element signature="e#767793#768029#0#FTL&gt;" />
+            <element signature="e#767917#768023#0#FTL&gt;" />
+            <element signature="e#772199#778721#0#FTL&gt;" />
+            <element signature="e#780523#780754#0#FTL&gt;" />
+            <element signature="e#780642#780748#0#FTL&gt;" />
+            <element signature="e#783933#784169#0#FTL&gt;" />
+            <element signature="e#784057#784163#0#FTL&gt;" />
+            <element signature="e#788313#794835#0#FTL&gt;" />
+            <element signature="e#797238#797469#0#FTL&gt;" />
+            <element signature="e#797357#797463#0#FTL&gt;" />
+            <element signature="e#800123#800358#0#FTL&gt;" />
+            <element signature="e#800246#800352#0#FTL&gt;" />
+            <element signature="e#805104#812005#0#FTL&gt;" />
+            <element signature="e#815055#815290#0#FTL&gt;" />
+            <element signature="e#815178#815284#0#FTL&gt;" />
+            <element signature="e#819901#826802#0#FTL&gt;" />
+            <element signature="e#829852#830087#0#FTL&gt;" />
+            <element signature="e#829975#830081#0#FTL&gt;" />
+            <element signature="e#834697#841598#0#FTL&gt;" />
+            <element signature="e#844648#844886#0#FTL&gt;" />
+            <element signature="e#844774#844880#0#FTL&gt;" />
+            <element signature="e#848983#855887#0#FTL&gt;" />
+            <element signature="e#857689#857920#0#FTL&gt;" />
+            <element signature="e#857808#857914#0#FTL&gt;" />
+            <element signature="e#860125#860363#0#FTL&gt;" />
+            <element signature="e#860251#860357#0#FTL&gt;" />
+            <element signature="e#864524#871048#0#FTL&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/Form 1 - 副本.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26600">
+          <caret line="1064" column="25" selection-end-line="13766" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/webpage/TextParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/Form 1.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="11066" column="38" selection-start-line="11066" selection-start-column="38" selection-end-line="11066" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#0;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#1;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#v:line#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#2;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/会议记录.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="428" column="30" selection-start-line="428" selection-start-column="30" selection-end-line="428" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/Form 1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="1013" column="56" selection-start-line="1013" selection-start-column="56" selection-end-line="1013" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/StudentInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/CreateRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/test/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/sync/ThreadPoolEcecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/两次会议间快速审查结果通报（V1.0）.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="9238" column="31" lean-forward="true" selection-start-line="9238" selection-start-column="31" selection-end-line="9238" selection-end-column="31" />
+          <folding>
+            <element signature="n#w:tr#38;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#39;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#1;n#w:p#0;n#w:hdr#0;n#pkg:xmlData#0;n#pkg:part#5;n#pkg:package#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/Form 38 - 会议议程附件1：两次会议间快速审查结果通报（V1.0）.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559">
+          <caret line="8987" column="65" selection-start-line="8987" selection-start-column="65" selection-end-line="8987" selection-end-column="65" />
+          <folding>
+            <element signature="n#w:tr#8;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#10;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#12;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#13;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#16;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#17;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#20;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#21;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#24;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#25;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#28;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#29;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#32;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#33;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#36;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#w:tr#37;n#w:tbl#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" />
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#1;n#w:p#0;n#w:hdr#0;n#pkg:xmlData#0;n#pkg:part#5;n#pkg:package#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/EthicApplyTableO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="423" column="46" selection-start-line="423" selection-start-column="46" selection-end-line="423" selection-end-column="46" />
+          <folding>
+            <element signature="e#24376#24377#0" expanded="true" />
+            <element signature="e#24420#24421#0" expanded="true" />
+            <element signature="e#24459#24460#0" expanded="true" />
+            <element signature="e#24498#24499#0" expanded="true" />
+            <element signature="e#24538#24539#0" expanded="true" />
+            <element signature="e#24578#24579#0" expanded="true" />
+            <element signature="e#24617#24618#0" expanded="true" />
+            <element signature="e#24656#24657#0" expanded="true" />
+            <element signature="e#24699#24700#0" expanded="true" />
+            <element signature="e#24742#24743#0" expanded="true" />
+            <element signature="e#24779#24780#0" expanded="true" />
+            <element signature="e#24816#24817#0" expanded="true" />
+            <element signature="e#24856#24857#0" expanded="true" />
+            <element signature="e#24896#24897#0" expanded="true" />
+            <element signature="e#24942#24943#0" expanded="true" />
+            <element signature="e#24988#24989#0" expanded="true" />
+            <element signature="e#25035#25036#0" expanded="true" />
+            <element signature="e#25082#25083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/bigdata/word/CreateWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="151" column="62" lean-forward="true" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/file/伦理审查申请及受理表申请表.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="3685" column="47" lean-forward="true" selection-start-line="3685" selection-start-column="47" selection-end-line="3685" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#0;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#v:shape#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#1;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#v:line#0;n#w:pict#0;n#mc:Fallback#0;n#mc:AlternateContent#0;n#w:r#2;n#w:p#0;n#w:body#0;n#w:document#0;n#pkg:xmlData#0;n#pkg:part#1;n#pkg:package#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
